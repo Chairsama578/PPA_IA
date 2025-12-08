@@ -4,7 +4,7 @@ import numpy as np
 
 st.set_page_config(page_title="Khảo sát Outlier & Hồi quy tuyến tính", layout="wide")
 
-st.title("📌 Khảo sát tác động của điểm ngoại lai lên nghiệm Hồi quy tuyến tính")
+st.title("Nhận Diện Rác thải")
 st.write("### Góc nhìn: Đại số tuyến tính – nghiệm β = (XᵀX)⁻¹Xᵀy")
 
 # ---------------------------------------------------------
@@ -85,3 +85,4 @@ if uploaded:
 
 else:
     st.info("👉 Hãy tải file CSV vào để bắt đầu phân tích.")
+
